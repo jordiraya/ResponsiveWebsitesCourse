@@ -2,6 +2,8 @@
 <html lang="en">
     <head>    
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- for responsive design -->
+
         <!-- first this CSS to ensure same look between all browsers, from https://necolas.github.io/normalize.css/ -->
         <link rel="stylesheet" type="text/css" href="vendors/css/normalize.css">
         <!-- grid, from http://www.responsivegridsystem.com/ -->
@@ -9,7 +11,9 @@
         <!-- icons from http://ionicons.com -->
         <link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
         <!-- our custom CSS -->
-        <link rel="stylesheet" type="text/css" href="resources/css/style.css"> 
+        <link rel="stylesheet" type="text/css" href="resources/css/style.css">
+        <!-- for responsive design -->
+        <link rel="stylesheet" type="text/css" href="resources/css/queries.css">
         <!-- font from google fonts -->
         <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Lato:100,300,300i,400">
         <title>Omnifood</title>
@@ -406,4 +410,9 @@
         </footer>
 
     </body>
+
+    <!-- ompatibility with older browsers -->
+    <script scc="https://cdn.jsdelivr.net/respond/1.4.2/respond.min.js"></script>
+    <script scc="https://cdn.jsdelivr.net/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script scc="https://cdn.jsdelivr.net/selectivizr/1.0.3b/selectivizr.min.js"></script>
 </html>
